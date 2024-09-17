@@ -1,0 +1,2 @@
+for(var t=Array.from(document.querySelectorAll("span.population")).map(function(t){return parseInt(t.textContent.replace(/,/g,""),10)}),e=0,n=0;n<t.length;n++)e+=t[n];var o=e/t.length,r=e.toLocaleString("en-US");document.querySelector("span.total-population").textContent=r;var a=o.toLocaleString("en-US");document.querySelector("span.average-population").textContent=a;
+//# sourceMappingURL=index.f30012ef.js.map
